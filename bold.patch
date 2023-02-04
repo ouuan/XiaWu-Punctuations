@@ -1,0 +1,450 @@
+diff -ura LXGWWenKai-Bold.ufo/features.fea XiaWu-Punctuations-Bold.ufo/features.fea
+--- LXGWWenKai-Bold.ufo/features.fea	2023-01-17 12:26:40.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/features.fea	2023-02-04 02:28:38.162113454 +0800
+@@ -3476,3 +3476,30 @@
+ 	tibt romn -120 -120 -120 0;
+ } BASE;
+ 
++feature halt {
++  position \quoteleft <-500 0 -500 0>;
++  position \quoteright <0 0 -500 0>;
++  position \quotedblleft <-500 0 -500 0>;
++  position \quotedblright <0 0 -500 0>;
++  position \u3001 <0 0 -500 0>;
++  position \u3002 <0 0 -500 0>;
++  position \angleleft <-500 0 -500 0>;
++  position \angleright <0 0 -500 0>;
++  position \u300A <-500 0 -500 0>;
++  position \u300B <0 0 -500 0>;
++  position \u300C <-500 0 -500 0>;
++  position \u300D <0 0 -500 0>;
++  position \u300E <-500 0 -500 0>;
++  position \u300F <0 0 -500 0>;
++  position \u3010 <-500 0 -500 0>;
++  position \u3011 <0 0 -500 0>;
++  position \u3016 <-500 0 -500 0>;
++  position \u3017 <0 0 -500 0>;
++  position \u30FB <-250 0 -500 0>;
++  position \uFF08 <-500 0 -500 0>;
++  position \uFF09 <0 0 -500 0>;
++  position \uFF0C <0 0 -500 0>;
++  position \uFF0E <0 0 -500 0>;
++  position \uFF1A <0 0 -500 0>;
++  position \uFF1B <0 0 -500 0>;
++} halt;
+diff -ura LXGWWenKai-Bold.ufo/fontinfo.plist XiaWu-Punctuations-Bold.ufo/fontinfo.plist
+--- LXGWWenKai-Bold.ufo/fontinfo.plist	2023-01-17 12:21:24.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/fontinfo.plist	2023-02-04 02:40:01.810791810 +0800
+@@ -12,7 +12,7 @@
+     <key>descender</key>
+     <integer>-120</integer>
+     <key>familyName</key>
+-    <string>LXGW WenKai</string>
++    <string>XiaWu Punctuations</string>
+     <key>guidelines</key>
+     <array/>
+     <key>italicAngle</key>
+@@ -101,7 +101,7 @@
+         <key>platformID</key>
+         <integer>1</integer>
+         <key>string</key>
+-        <string>LXGW WenKai</string>
++        <string>XiaWu Punctuations</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -125,7 +125,7 @@
+         <key>platformID</key>
+         <integer>3</integer>
+         <key>string</key>
+-        <string>LXGW WenKai</string>
++        <string>XiaWu Punctuations</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -197,7 +197,7 @@
+         <key>platformID</key>
+         <integer>1</integer>
+         <key>string</key>
+-        <string>LXGW WenKai Bold:Version 1.250</string>
++        <string>XiaWu Punctuations Bold:Version 1.250</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -209,7 +209,7 @@
+         <key>platformID</key>
+         <integer>3</integer>
+         <key>string</key>
+-        <string>LXGW WenKai Bold:Version 1.250</string>
++        <string>XiaWu Punctuations Bold:Version 1.250</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -221,7 +221,7 @@
+         <key>platformID</key>
+         <integer>1</integer>
+         <key>string</key>
+-        <string>LXGW WenKai Bold</string>
++        <string>XiaWu Punctuations Bold</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -233,7 +233,7 @@
+         <key>platformID</key>
+         <integer>3</integer>
+         <key>string</key>
+-        <string>LXGW WenKai Bold</string>
++        <string>XiaWu Punctuations Bold</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -269,7 +269,7 @@
+         <key>platformID</key>
+         <integer>1</integer>
+         <key>string</key>
+-        <string>LXGWWenKai-Bold</string>
++        <string>XiaWu-Punctuations-Bold</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -281,7 +281,7 @@
+         <key>platformID</key>
+         <integer>3</integer>
+         <key>string</key>
+-        <string>LXGWWenKai-Bold</string>
++        <string>XiaWu-Punctuations-Bold</string>
+       </dict>
+       <dict>
+         <key>encodingID</key>
+@@ -405,7 +405,7 @@
+       </dict>
+     </array>
+     <key>openTypeNameUniqueID</key>
+-    <string>LXGW WenKai Bold:Version 1.250</string>
++    <string>XiaWu Punctuations Bold:Version 1.250</string>
+     <key>openTypeNameVersion</key>
+     <string>Version 1.250;January 17, 2023</string>
+     <key>openTypeOS2CodePageRanges</key>
+@@ -570,7 +570,7 @@
+     <key>postscriptUnderlineThickness</key>
+     <integer>50</integer>
+     <key>styleMapFamilyName</key>
+-    <string>LXGW WenKai</string>
++    <string>XiaWu Punctuations</string>
+     <key>styleMapStyleName</key>
+     <string>bold</string>
+     <key>styleName</key>
+diff -ura LXGWWenKai-Bold.ufo/glyphs/quotedblleft.glif XiaWu-Punctuations-Bold.ufo/glyphs/quotedblleft.glif
+--- LXGWWenKai-Bold.ufo/glyphs/quotedblleft.glif	2023-01-17 12:21:26.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/glyphs/quotedblleft.glif	2023-02-04 02:27:11.323953295 +0800
+@@ -1,78 +1,61 @@
+ <?xml version='1.0' encoding='UTF-8'?>
+ <glyph name="quotedblleft" format="2">
+-  <advance height="1000" width="350"/>
++  <advance height="1000" width="1000"/>
+   <unicode hex="201C"/>
+   <outline>
+     <contour>
+-      <point x="252" y="721" type="qcurve"/>
+-      <point x="254" y="720"/>
+-      <point x="259" y="719" type="qcurve"/>
+-      <point x="265" y="717"/>
+-      <point x="267" y="714" type="qcurve"/>
+-      <point x="293" y="691"/>
+-      <point x="293" y="663" type="qcurve"/>
+-      <point x="293" y="638"/>
+-      <point x="262" y="611"/>
+-      <point x="239" y="611" type="qcurve"/>
+-      <point x="216" y="611"/>
+-      <point x="184" y="652"/>
+-      <point x="181" y="686" type="qcurve"/>
+-      <point x="181" y="723"/>
+-      <point x="241" y="799"/>
+-      <point x="283" y="817" type="qcurve"/>
+-      <point x="289" y="820"/>
+-      <point x="294" y="820" type="qcurve"/>
+-      <point x="314" y="820"/>
+-      <point x="314" y="800" type="qcurve"/>
+-      <point x="314" y="790"/>
+-      <point x="306" y="783" type="qcurve"/>
+-      <point x="287" y="771"/>
+-      <point x="271" y="752" type="qcurve"/>
+-      <point x="256" y="733"/>
++      <point x="902" y="721" type="qcurve"/>
++      <point x="904" y="720"/>
++      <point x="909" y="719" type="qcurve"/>
++      <point x="915" y="717"/>
++      <point x="917" y="714" type="qcurve"/>
++      <point x="943" y="691"/>
++      <point x="943" y="663" type="qcurve"/>
++      <point x="943" y="638"/>
++      <point x="912" y="611"/>
++      <point x="889" y="611" type="qcurve"/>
++      <point x="866" y="611"/>
++      <point x="834" y="652"/>
++      <point x="831" y="686" type="qcurve"/>
++      <point x="831" y="723"/>
++      <point x="891" y="799"/>
++      <point x="933" y="817" type="qcurve"/>
++      <point x="939" y="820"/>
++      <point x="944" y="820" type="qcurve"/>
++      <point x="964" y="820"/>
++      <point x="964" y="800" type="qcurve"/>
++      <point x="964" y="790"/>
++      <point x="956" y="783" type="qcurve"/>
++      <point x="937" y="771"/>
++      <point x="921" y="752" type="qcurve"/>
++      <point x="906" y="733"/>
+     </contour>
+     <contour>
+-      <point x="122" y="721" type="qcurve"/>
+-      <point x="124" y="720"/>
+-      <point x="129" y="719" type="qcurve"/>
+-      <point x="135" y="717"/>
+-      <point x="137" y="714" type="qcurve"/>
+-      <point x="163" y="691"/>
+-      <point x="163" y="663" type="qcurve"/>
+-      <point x="163" y="638"/>
+-      <point x="132" y="611"/>
+-      <point x="109" y="611" type="qcurve"/>
+-      <point x="86" y="611"/>
+-      <point x="54" y="652"/>
+-      <point x="51" y="686" type="qcurve"/>
+-      <point x="51" y="723"/>
+-      <point x="111" y="799"/>
+-      <point x="153" y="817" type="qcurve"/>
+-      <point x="159" y="820"/>
+-      <point x="164" y="820" type="qcurve"/>
+-      <point x="184" y="820"/>
+-      <point x="184" y="800" type="qcurve"/>
+-      <point x="184" y="790"/>
+-      <point x="176" y="783" type="qcurve"/>
+-      <point x="157" y="771"/>
+-      <point x="141" y="752" type="qcurve"/>
+-      <point x="126" y="733"/>
++      <point x="772" y="721" type="qcurve"/>
++      <point x="774" y="720"/>
++      <point x="779" y="719" type="qcurve"/>
++      <point x="785" y="717"/>
++      <point x="787" y="714" type="qcurve"/>
++      <point x="813" y="691"/>
++      <point x="813" y="663" type="qcurve"/>
++      <point x="813" y="638"/>
++      <point x="782" y="611"/>
++      <point x="759" y="611" type="qcurve"/>
++      <point x="736" y="611"/>
++      <point x="704" y="652"/>
++      <point x="701" y="686" type="qcurve"/>
++      <point x="701" y="723"/>
++      <point x="761" y="799"/>
++      <point x="803" y="817" type="qcurve"/>
++      <point x="809" y="820"/>
++      <point x="814" y="820" type="qcurve"/>
++      <point x="834" y="820"/>
++      <point x="834" y="800" type="qcurve"/>
++      <point x="834" y="790"/>
++      <point x="826" y="783" type="qcurve"/>
++      <point x="807" y="771"/>
++      <point x="791" y="752" type="qcurve"/>
++      <point x="776" y="733"/>
+     </contour>
+   </outline>
+-  <lib>
+-    <dict>
+-      <key>public.truetype.instructions</key>
+-      <dict>
+-        <key>assembly</key>
+-        <string>
+-
+-</string>
+-        <key>formatVersion</key>
+-        <string>1</string>
+-        <key>id</key>
+-        <string>0f9987c88c7baf56e303c914f3d619e95c86c9144e08047b56e20fdf2e10845f2dcd649003e3a3da4d8e2efa8bf84d850c5d51fcd3a524c15fc2ba6ff4a3b3eb</string>
+-      </dict>
+-      <key>public.verticalOrigin</key>
+-      <integer>880</integer>
+-    </dict>
+-  </lib>
+ </glyph>
+diff -ura LXGWWenKai-Bold.ufo/glyphs/quotedblright.glif XiaWu-Punctuations-Bold.ufo/glyphs/quotedblright.glif
+--- LXGWWenKai-Bold.ufo/glyphs/quotedblright.glif	2023-01-17 12:21:26.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/glyphs/quotedblright.glif	2023-02-04 02:27:54.224016800 +0800
+@@ -1,6 +1,6 @@
+ <?xml version='1.0' encoding='UTF-8'?>
+ <glyph name="quotedblright" format="2">
+-  <advance height="1000" width="350"/>
++  <advance height="1000" width="1000"/>
+   <unicode hex="201D"/>
+   <outline>
+     <contour>
+@@ -56,21 +56,4 @@
+       <point x="94" y="697"/>
+     </contour>
+   </outline>
+-  <lib>
+-    <dict>
+-      <key>public.truetype.instructions</key>
+-      <dict>
+-        <key>assembly</key>
+-        <string>
+-
+-</string>
+-        <key>formatVersion</key>
+-        <string>1</string>
+-        <key>id</key>
+-        <string>b96cf36b342bec659e2216e1c5bd7fc41a32cdb18276d666d58473c960b53ac72ae86cd30f731b749efd49de7579c47ee290eb28cf4b0d527b69bd81530dbfef</string>
+-      </dict>
+-      <key>public.verticalOrigin</key>
+-      <integer>880</integer>
+-    </dict>
+-  </lib>
+ </glyph>
+diff -ura LXGWWenKai-Bold.ufo/glyphs/quoteleft.glif XiaWu-Punctuations-Bold.ufo/glyphs/quoteleft.glif
+--- LXGWWenKai-Bold.ufo/glyphs/quoteleft.glif	2023-01-17 12:21:26.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/glyphs/quoteleft.glif	2023-02-04 02:28:11.085436788 +0800
+@@ -1,49 +1,32 @@
+ <?xml version='1.0' encoding='UTF-8'?>
+ <glyph name="quoteleft" format="2">
+-  <advance height="1000" width="350"/>
++  <advance height="1000" width="1000"/>
+   <unicode hex="2018"/>
+   <outline>
+     <contour>
+-      <point x="186" y="720" type="qcurve"/>
+-      <point x="201" y="720"/>
+-      <point x="206" y="713" type="qcurve"/>
+-      <point x="232" y="690"/>
+-      <point x="232" y="662" type="qcurve"/>
+-      <point x="232" y="637"/>
+-      <point x="196" y="610"/>
+-      <point x="173" y="610" type="qcurve"/>
+-      <point x="150" y="610"/>
+-      <point x="118" y="651"/>
+-      <point x="115" y="685" type="qcurve"/>
+-      <point x="115" y="722"/>
+-      <point x="175" y="798"/>
+-      <point x="217" y="816" type="qcurve"/>
+-      <point x="223" y="819"/>
+-      <point x="228" y="819" type="qcurve"/>
+-      <point x="248" y="819"/>
+-      <point x="248" y="799" type="qcurve"/>
+-      <point x="248" y="789"/>
+-      <point x="240" y="782" type="qcurve"/>
+-      <point x="221" y="770"/>
+-      <point x="205" y="751" type="qcurve"/>
+-      <point x="190" y="732"/>
++      <point x="836" y="720" type="qcurve"/>
++      <point x="851" y="720"/>
++      <point x="856" y="713" type="qcurve"/>
++      <point x="882" y="690"/>
++      <point x="882" y="662" type="qcurve"/>
++      <point x="882" y="637"/>
++      <point x="846" y="610"/>
++      <point x="823" y="610" type="qcurve"/>
++      <point x="800" y="610"/>
++      <point x="768" y="651"/>
++      <point x="765" y="685" type="qcurve"/>
++      <point x="765" y="722"/>
++      <point x="825" y="798"/>
++      <point x="867" y="816" type="qcurve"/>
++      <point x="873" y="819"/>
++      <point x="878" y="819" type="qcurve"/>
++      <point x="898" y="819"/>
++      <point x="898" y="799" type="qcurve"/>
++      <point x="898" y="789"/>
++      <point x="890" y="782" type="qcurve"/>
++      <point x="871" y="770"/>
++      <point x="855" y="751" type="qcurve"/>
++      <point x="840" y="732"/>
+     </contour>
+   </outline>
+-  <lib>
+-    <dict>
+-      <key>public.truetype.instructions</key>
+-      <dict>
+-        <key>assembly</key>
+-        <string>
+-
+-</string>
+-        <key>formatVersion</key>
+-        <string>1</string>
+-        <key>id</key>
+-        <string>ccf7ca99c6b42718fe589d75746154e3e7a4505cedcfadc3505409190ab3aa97e288d3f66618b864753bff30ab0c1c007cfea6d0c443ee517d682da8de528165</string>
+-      </dict>
+-      <key>public.verticalOrigin</key>
+-      <integer>880</integer>
+-    </dict>
+-  </lib>
+ </glyph>
+diff -ura LXGWWenKai-Bold.ufo/glyphs/quoteright.glif XiaWu-Punctuations-Bold.ufo/glyphs/quoteright.glif
+--- LXGWWenKai-Bold.ufo/glyphs/quoteright.glif	2023-01-17 12:21:26.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/glyphs/quoteright.glif	2023-02-04 02:28:22.240715241 +0800
+@@ -1,6 +1,6 @@
+ <?xml version='1.0' encoding='UTF-8'?>
+ <glyph name="quoteright" format="2">
+-  <advance height="1000" width="350"/>
++  <advance height="1000" width="1000"/>
+   <unicode hex="2019"/>
+   <outline>
+     <contour>
+@@ -29,21 +29,4 @@
+       <point x="162" y="698"/>
+     </contour>
+   </outline>
+-  <lib>
+-    <dict>
+-      <key>public.truetype.instructions</key>
+-      <dict>
+-        <key>assembly</key>
+-        <string>
+-
+-</string>
+-        <key>formatVersion</key>
+-        <string>1</string>
+-        <key>id</key>
+-        <string>3c9cfc66222958d2eb93c47f8ecc9ea3c9170754ea2cd4b376b03b8cc59d20d815f4b01f198c42f4a4aa2506d587667d67609a2960564c8e4b1da1140f74e9f6</string>
+-      </dict>
+-      <key>public.verticalOrigin</key>
+-      <integer>880</integer>
+-    </dict>
+-  </lib>
+ </glyph>
+diff -ura LXGWWenKai-Bold.ufo/lib.plist XiaWu-Punctuations-Bold.ufo/lib.plist
+--- LXGWWenKai-Bold.ufo/lib.plist	2023-01-17 12:21:24.000000000 +0800
++++ XiaWu-Punctuations-Bold.ufo/lib.plist	2023-02-04 02:28:52.839481357 +0800
+@@ -2,6 +2,34 @@
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+   <dict>
++    <key>com.schriftgestaltung.Keep Glyphs</key>
++    <array>
++      <string>quoteleft</string>
++      <string>quoteright</string>
++      <string>quotedblleft</string>
++      <string>quotedblright</string>
++      <string>u3001</string>
++      <string>u3002</string>
++      <string>angleleft</string>
++      <string>angleright</string>
++      <string>u300A</string>
++      <string>u300B</string>
++      <string>u300C</string>
++      <string>u300D</string>
++      <string>u300E</string>
++      <string>u300F</string>
++      <string>u3010</string>
++      <string>u3011</string>
++      <string>u3016</string>
++      <string>u3017</string>
++      <string>u30FB</string>
++      <string>uFF08</string>
++      <string>uFF09</string>
++      <string>uFF0C</string>
++      <string>uFF0E</string>
++      <string>uFF1A</string>
++      <string>uFF1B</string>
++    </array>
+     <key>public.glyphOrder</key>
+     <array>
+       <string>.notdef</string>
