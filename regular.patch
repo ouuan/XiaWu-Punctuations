@@ -438,15 +438,27 @@ diff -ura LXGWWenKai-Regular.ufo/glyphs/quoteright.glif XiaWu-Punctuations-Regul
 -    </dict>
 -  </lib>
  </glyph>
+diff -ura LXGWWenKai-Regular.ufo/glyphs/space.glif XiaWu-Punctuations-Regular.ufo/glyphs/space.glif
+--- LXGWWenKai-Regular.ufo/glyphs/space.glif	2023-01-17 12:13:56.000000000 +0800
++++ XiaWu-Punctuations-Regular.ufo/glyphs/space.glif	2023-03-09 18:26:22.903018378 +0800
+@@ -1,6 +1,6 @@
+ <?xml version='1.0' encoding='UTF-8'?>
+ <glyph name="space" format="2">
+-  <advance height="1000" width="350"/>
++  <advance height="1000" width="258"/>
+   <unicode hex="0020"/>
+   <outline>
+   </outline>
 diff -ura LXGWWenKai-Regular.ufo/lib.plist XiaWu-Punctuations-Regular.ufo/lib.plist
 --- LXGWWenKai-Regular.ufo/lib.plist	2023-01-17 12:13:52.000000000 +0800
-+++ XiaWu-Punctuations-Regular.ufo/lib.plist	2023-02-04 02:18:17.527648448 +0800
-@@ -2,6 +2,34 @@
++++ XiaWu-Punctuations-Regular.ufo/lib.plist	2023-03-09 18:28:37.828000178 +0800
+@@ -2,6 +2,35 @@
  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
  <plist version="1.0">
    <dict>
 +    <key>com.schriftgestaltung.Keep Glyphs</key>
 +    <array>
++      <string>space</string>
 +      <string>quoteleft</string>
 +      <string>quoteright</string>
 +      <string>quotedblleft</string>
