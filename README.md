@@ -1,3 +1,9 @@
+> [!TIP]
+> 
+> 霞鹜文楷自 [v1.500](https://github.com/lxgw/LxgwWenKai/releases/tag/v1.500) 起已自带 `halt` 和 `vhal` 特性。只不过引号是特意设为半宽的（见 <https://github.com/lxgw/LxgwWenKai/releases/tag/v1.101> 和 <https://github.com/lxgw/LxgwWenKai/blob/master/documentation/uvs.pdf>），本字体提供了全宽引号。
+
+---
+
 # XiaWu Punctuations
 
 基于[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)修改得到的标点字体：
